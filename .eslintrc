@@ -1,0 +1,11 @@
+{
+  extends: "@omrilotan",
+	overrides: [
+		{
+			files: [ "**/spec.js" ],
+			globals: {
+				stub: true
+			}
+		}
+	]
+}

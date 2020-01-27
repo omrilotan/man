@@ -1,0 +1,8 @@
+{
+  "name": "fixture",
+  "version": "1.0.0",
+  "description": "nothing!",
+  "author": "no one",
+  "license": "MIT",
+  "man": "docs/man.1"
+}

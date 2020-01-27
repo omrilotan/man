@@ -1,0 +1,44 @@
+{
+  "name": "man",
+  "version": "0.0.0",
+  "description": "📖 Print contents of package man file in console",
+  "keywords": [
+    "man",
+    "manual",
+    "help",
+    "cli",
+    "📖"
+  ],
+  "homepage": "https://github.com/omrilotan/man#readme",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/omrilotan/man.git"
+  },
+  "author": "omrilotan",
+  "license": "MIT",
+  "engines": {
+    "node" : ">=10"
+  },
+  "main": "index.js",
+  "bin": {
+    "manfile": "bin.js",
+    "manual": "bin.js"
+  },
+  "man": "man.1",
+  "scripts": {
+    "start": "./bin.js",
+    "test": "mocha '**/spec.js' --require .mocha.js --recursive --exclude 'node_modules'",
+    "lint": "eslint . --ext .js"
+  },
+  "dependencies": {
+    "@omrilotan/eslint-config": "^1.1.0",
+    "chai": "^4.2.0",
+    "eslint": "^6.8.0",
+    "eslint-plugin-log": "^1.2.3",
+    "mocha": "^7.0.1",
+    "sinon": "^8.1.1"
+  },
+  "devDependencies": {
+    "sinon-chai": "^3.4.0"
+  }
+}
